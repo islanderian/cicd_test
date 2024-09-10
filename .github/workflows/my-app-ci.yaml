@@ -15,7 +15,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      PROJECT_DIR: my-app-ci
+      PROJECT_DIR: m-app
 
     steps:
       - uses: actions/checkout@v2
